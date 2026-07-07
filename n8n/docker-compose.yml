@@ -13,6 +13,7 @@ services:
       - N8N_HOST=localhost
       - N8N_PORT=5678
       - N8N_PROTOCOL=http
+      - N8N_SECURE_COOKIE=false
       - NODE_ENV=production
     # SQLite is default, so no DB_* variables needed
     volumes:
